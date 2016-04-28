@@ -8,7 +8,24 @@
 
 <script id="cid0020000122871837109" data-cfasync="false" async src="//st.chatango.com/js/gz/emb.js" style="width: 350px;height: 350px;">{"handle":"nooble5radio","arch":"js","styles":{"a":"0084ef","b":100,"c":"FFFFFF","d":"FFFFFF","k":"0084ef","l":"0084ef","m":"0084ef","n":"FFFFFF","p":"10","q":"0084ef","r":100,"fwtickm":1}}</script>
 
-<<iframe src="http://player.radioforge.com/v2/icecast.html?radiolink=haruhichan.com:8000/stream.mp3&radiotype=icecast&bcolor=&image=Hi&title=Noobles Radio&artist=" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" width="367" height="227"></iframe>
+<div id="metadata">
+  <p> <!-- Now Playing shows up here --> </p>
+</div>
+
+<script type="text/javascript" src="https://www.fastserv.com/player/player.js"></script>
+<div id="player"><a href="http://www.macromedia.com/go/getflashplayer">Get the Flash Player</a> to hear this stream.</div>
+<script type="text/javascript">
+    // SET THE FOLLOWING VARIABLES ACCORDING TO YOUR STREAM
+     var stream = 'https://haruhichan.com:8000/stream.mp3';
+     var autostart = 'true';
+    // DO NOT EDIT ANYTHING BELOW THIS POINT
+     var so = new SWFObject('https://www.fastserv.com/player/player.swf','mpl','470','20','9');
+     so.addParam('allowscriptaccess','always');
+     so.addParam('allowfullscreen','false');
+     so.addVariable('autostart', autostart);
+     so.addVariable('file', stream+'%3Ftype%3D.flv');
+     so.write('player');
+</script> 
 
 
 </body>
