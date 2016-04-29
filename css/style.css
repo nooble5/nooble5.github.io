@@ -180,7 +180,7 @@ body{
 }
 #page .header .footer .body #content .content ul li{
 	list-style-type:none;
-	padding-right:40px;
+	padding-right:10px;
 }
 #page .header .footer .body #content .content ul li span{
 	display:block;
@@ -223,7 +223,7 @@ body{
 }
 #page .header .footer .body #content .content ul.article li{
 	list-style-type:none;
-	padding-right:30px;
+	padding-right:40px;
 	display:block;
 	margin-bottom:30px;
 	overflow:hidden;
