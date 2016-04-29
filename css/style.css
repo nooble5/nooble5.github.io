@@ -287,9 +287,9 @@ body{
 #page .header .footer .body #content .featured{
 	width:294px;
 	position:relative;
-	z-index:10px;
+	z-index:20px;
 	margin:-473px 0 25px 432px;
-	overflow:hidden;
+	overflow:visible;
 	display:block;
 }
 #page .header .footer .body #content .featured .body{
