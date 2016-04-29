@@ -175,7 +175,7 @@ body{
 	background-image:url("../images/bg-inner-page.jpg");
 	background-repeat:repeat-y;
 	float:left;
-	padding-top:25px;
+	padding-top:20px;
 	overflow:hidden;
 }
 #page .header .footer .body #content .content ul li{
